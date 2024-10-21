@@ -1,0 +1,41 @@
+@media only screen and (min-width: 320px) {
+   body{
+    background-color: lightblue;
+    img{
+        border-radius: 50%;
+    }
+   } 
+   .psor::before{
+    content:"Pedro Pedro Pedro!"; 
+   }
+   .psor::after{
+   content: "Passeggio tutta sola per le strade"
+" Guardando attentamente i monumenti";
+   }
+}
+
+@media only screen and (min-width: 720px) {
+  body {
+     background-color: lightblue;
+  } 
+    img{
+        border-radius: 50%;
+    }
+    .psor::before{
+       content: "Passeggio tutta sola per le strade"
+" Guardando attentamente i monumenti"; 
+    }
+    .psor::after{
+        content: " La classica straniera con un'aria strana"
+"Che gira stanca tutta la città"; 
+    }
+   } 
+
+   @media only screen and (min-width: 1000px) {
+    body {
+        background-color: lightblue;
+     } 
+       img{
+           border-radius: 50%;
+       }
+   }
